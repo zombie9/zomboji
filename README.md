@@ -2,8 +2,8 @@
 
 ### `This project is:`
 
-a.  A zombie-based emoji or avatar customisation system
-b.  An exercise in React frontend ui development
+a.  A zombie-based emoji or avatar customisation system<br />
+b.  An exercise in React frontend ui development<br />
 c.  Just a bit of fun
 
 In the project directory, you can run:
