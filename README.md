@@ -1,4 +1,4 @@
-## Zomboji
+## zomboji
 
 ### `This project is:`
 
