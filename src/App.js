@@ -1,6 +1,6 @@
 import React from 'react';
 import Header from './components/layout/header'
-import Canvas from './components/layout/canvas'
+import Canvas from './components/customiser/canvas'
 import Customiser from './components/customiser/customiser'
 
 function App() {
