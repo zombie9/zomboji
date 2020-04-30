@@ -1,7 +1,7 @@
 import initState from '../initState'
 
 const customiserReducer = (state = initState, action) => {
-  console.log(action.payload)
+
   switch (action.type) {
     case 'SET_LAYER':
     return Object.assign({}, state, {
@@ -11,7 +11,6 @@ const customiserReducer = (state = initState, action) => {
             selected: action.payload.selected
           })
         }
-        console.log(state)
         return layer
       })
     })
@@ -19,6 +18,7 @@ const customiserReducer = (state = initState, action) => {
     default:
       return state
   }
+
 }
 
 export default customiserReducer
