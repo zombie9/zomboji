@@ -1,15 +1,15 @@
 import React from 'react';
-import { Slider } from '@material-ui/core'
-import Layers from './layers'
+import { useSelector } from 'react-redux'
 import CustomiserItem from './customiser-item'
 
 function Customiser() {
+  const layers = useSelector(state => state.customiser.layers)
   return (
     <div className="d-flex align-items-center">
       <div>
-        { Layers && Layers.map(layer => {
+        { layers && layers.map(layer => {
           return (
-            <CustomiserItem layer={layer} />
+            <CustomiserItem layer={layer} key={layer.key} />
           )
         })}
       </div>

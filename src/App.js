@@ -1,13 +1,11 @@
 import React from 'react';
-import Header from './components/layout/header'
-import Canvas from './components/layout/canvas'
+import Canvas from './components/customiser/canvas'
 import Customiser from './components/customiser/customiser'
 
 function App() {
   return (
     <div className="container">
-      <Header />
-      <div style={{display: "flex", justifyContent: "center", height: "600px"}}>
+      <div className="wrapper">
         <Canvas />
         <Customiser />
       </div>
