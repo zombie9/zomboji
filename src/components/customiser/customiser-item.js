@@ -3,9 +3,8 @@ import { Slider } from '@material-ui/core'
 import { useDispatch, useSelector } from 'react-redux'
 import { setLayer } from '../../store/actions/customiserActions'
 
-
 const CustomiserItem = ({layer}) => {
-  const sliderValue = useSelector(state => layer.selected)
+  const sliderValue = useSelector(state => state.customiser.layers[layer.key-1].selected)
   const dispatch = useDispatch()
   let value
   const handleChange = (event, newValue) => {

@@ -3,6 +3,7 @@ const initState = {
     {
       key: 1,
       name: 'head',
+      selected: 0,
       options: [
         {
           id: 1,
@@ -24,6 +25,7 @@ const initState = {
     {
       key: 2,
       name: 'eyes',
+      selected: 0,
       options: [
         {
           id: 1,
@@ -45,6 +47,7 @@ const initState = {
     {
       key: 3,
       name: 'nose',
+      selected: 0,
       options: [
         {
           id: 1,
@@ -61,6 +64,7 @@ const initState = {
     {
       key: 4,
       name: 'beard',
+      selected: 0,
       options: [
         {
           id: 1,
