@@ -1,10 +1,10 @@
 import React from 'react';
 import { Slider } from '@material-ui/core'
-import { useDispatch } from 'react-redux'
+import { useDispatch, useSelector } from 'react-redux'
 import { setLayer } from '../../store/actions/customiserActions'
 
-
-function CustomiserItem({layer}) {
+const CustomiserItem = ({layer}) => {
+  const sliderValue = useSelector(state => state.customiser.layers[layer.key-1].selected)
   const dispatch = useDispatch()
   let value
   const handleChange = (event, newValue) => {
@@ -19,7 +19,7 @@ function CustomiserItem({layer}) {
     <div>
       <h5>{layer.name}</h5>
       <Slider
-        value={value}
+        value={sliderValue}
         step={1}
         marks
         min={0}

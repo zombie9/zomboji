@@ -1,7 +1,6 @@
 import React from 'react';
 
-function CanvasLayer({layer}) {
-  console.log(layer.selected)
+const CanvasLayer = ({layer}) => {
   const option = layer.selected - 1
   const imgSrc = require(`../../images/${layer.options[option].file}`)
   return (

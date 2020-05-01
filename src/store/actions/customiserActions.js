@@ -4,3 +4,15 @@ export const setLayer = (newSelected) => {
     payload: newSelected
   }
 }
+
+export const setRandom = () => {
+  return {
+    type: 'SET_RANDOM',
+  }
+}
+
+export const reset = () => {
+  return {
+    type: 'RESET',
+  }
+}
