@@ -32,6 +32,7 @@ span.MuiSlider-thumb.Mui-focusVisible, span.MuiSlider-thumb:hover {
 .wrapper {
   display: flex;
   justify-content: center;
+  margin-top: -40px;
 }
 
 .canvas {
@@ -50,4 +51,8 @@ span.MuiSlider-thumb.Mui-focusVisible, span.MuiSlider-thumb:hover {
   width: 100%;
   top: 0;
   left: 0;
+}
+
+.customiser {
+  width: 80px;
 }

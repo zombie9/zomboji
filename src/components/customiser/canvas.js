@@ -1,11 +1,10 @@
 import React from 'react';
 import { useSelector } from 'react-redux'
 import zombojiBase from '../../images/zomboji-1.png'
-import Header from '../layout/header'
+import Header from './header'
 
 function Canvas() {
   const layers = useSelector(state => state.customiser.layers)
-  console.log(layers)
   return (
     <div className="canvas">
       <Header />
@@ -23,7 +22,7 @@ function Canvas() {
             <img
               key={layer.key}
               className="layer"
-              style={{zIndex:layer.index}}
+              style={{zIndex:`${layer.options[option].zindex}`}}
               src={imgSrc}
               alt={layer.options[option].file}>
             </img>
