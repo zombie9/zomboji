@@ -4,7 +4,7 @@ import zombojiBase from '../../images/zomboji-1.png'
 import Header from './header'
 import CanvasLayer from './canvas-layer'
 
-function Canvas() {
+const Canvas = () => {
   const layers = useSelector(state => state.customiser.layers)
   return (
     <div className="canvas">

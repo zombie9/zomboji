@@ -16,7 +16,7 @@ const initState = {
         },
         {
           id: 3,
-          zindex: 40,
+          zindex: 48,
           file: 'zomboji-12.png'
         }
       ]
