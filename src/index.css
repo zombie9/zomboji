@@ -44,10 +44,18 @@ span.MuiSlider-thumb.Mui-focusVisible, span.MuiSlider-thumb:hover {
   left: 0;
 }
 
+.zomboji-base {
+  height: 800px;
+}
+
 .layer {
   position: absolute;
   height: 100%;
   width: 100%;
   top: 0;
   left: 0;
+}
+
+.customiser {
+  width: 80px;
 }

@@ -6,7 +6,7 @@ function Customiser() {
   const layers = useSelector(state => state.customiser.layers)
   return (
     <div className="d-flex align-items-center">
-      <div>
+      <div className="customiser">
         { layers && layers.map(layer => {
           return (
             <CustomiserItem layer={layer} key={layer.key} />
