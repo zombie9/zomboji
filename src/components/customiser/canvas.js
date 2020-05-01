@@ -2,6 +2,7 @@ import React from 'react';
 import { useSelector } from 'react-redux'
 import zombojiBase from '../../images/zomboji-1.png'
 import Header from './header'
+import CanvasLayer from './canvas-layer'
 
 function Canvas() {
   const layers = useSelector(state => state.customiser.layers)
@@ -9,30 +10,19 @@ function Canvas() {
     <div className="canvas">
       <Header />
       <img
-        className="d-block"
-        style={{height: "800px"}}
+        className="d-block zomboji-base"
         src={zombojiBase}
         alt="zomboji base">
       </img>
       { layers && layers.map(layer => {
         if (layer.selected) {
-          const option = layer.selected - 1
-          const imgSrc = require(`../../images/${layer.options[option].file}`)
-          return (
-            <img
-              key={layer.key}
-              className="layer"
-              style={{zIndex:`${layer.options[option].zindex}`}}
-              src={imgSrc}
-              alt={layer.options[option].file}>
-            </img>
-          )
+          return <CanvasLayer layer={layer} key={layer.key}/>
         } else {
-          return ''
+          return null
         }
       })}
     </div>
-  );
+  )
 }
 
 export default Canvas;

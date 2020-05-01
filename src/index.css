@@ -32,7 +32,6 @@ span.MuiSlider-thumb.Mui-focusVisible, span.MuiSlider-thumb:hover {
 .wrapper {
   display: flex;
   justify-content: center;
-  margin-top: -40px;
 }
 
 .canvas {
@@ -43,6 +42,10 @@ span.MuiSlider-thumb.Mui-focusVisible, span.MuiSlider-thumb:hover {
   position: absolute;
   top: 50px;
   left: 0;
+}
+
+.zomboji-base {
+  height: 800px;
 }
 
 .layer {
