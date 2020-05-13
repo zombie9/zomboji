@@ -29,7 +29,7 @@ span.MuiSlider-thumb.Mui-focusVisible, span.MuiSlider-thumb:hover {
   box-shadow: 0px 0px 0px 8px rgb(169,169,169, 0.16);
 }
 
-span.MuiSlider-thumb,
+/* span.MuiSlider-thumb,
 span.Muislider-thumb.MuiSlider-thumbColorPrimary,
 span.MuiSlider-thumb.MuiSlider-thumbColorPrimary.MuiSlider-active {
   height: 20px;
@@ -40,7 +40,7 @@ span.MuiSlider-thumb.MuiSlider-thumbColorPrimary.MuiSlider-active {
   background-size: contain;
   opacity: 70%;
   transform: rotate(30deg);
-}
+} */
 
 button {
   background: none;
