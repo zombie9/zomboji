@@ -5,7 +5,7 @@ import Customiser from './components/customiser/customiser'
 function App() {
   return (
     <div className="container">
-      <div className="wrapper">
+      <div className="wrapper row">
         <Canvas />
         <Customiser />
       </div>
