@@ -73,10 +73,6 @@ button:focus {
   left: 0;
 }
 
-.zomboji-base {
-  height: 800px;
-}
-
 .layer {
   position: absolute;
   height: 100%;
@@ -87,4 +83,20 @@ button:focus {
 
 .customiser {
   width: 80px;
+}
+
+@media screen and (max-width: 480px) {
+  .zomboji-base {
+    height: 500px;
+  }
+  .header {
+    top: 10px;
+    left: 80px;
+  }
+  .header h1 {
+    font-size: 2rem;
+  }
+  .customiser {
+    width: 120px;
+  }
 }
