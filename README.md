@@ -3,7 +3,6 @@
 ### `This project is:`
 
 a.  A zombie customisation system<br />
-b.  An exercise in React frontend ui development<br />
 
 In the project directory, you can run:
 
