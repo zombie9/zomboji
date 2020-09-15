@@ -2,6 +2,6 @@
 
 ### `This project is:`
 
-A zombie customisation system<br />
-Still at prototype stage<br />
-Deployed to http://zomboji.herokuapp.com
+1. A zombie customisation system<br />
+
+2. Deployed to http://zomboji.herokuapp.com
