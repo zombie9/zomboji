@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/zomboji/static/css/main.8e363710.chunk.css",
+    "main.js": "/zomboji/static/js/main.cc553219.chunk.js",
+    "main.js.map": "/zomboji/static/js/main.cc553219.chunk.js.map",
+    "runtime-main.js": "/zomboji/static/js/runtime-main.ed67281d.js",
+    "runtime-main.js.map": "/zomboji/static/js/runtime-main.ed67281d.js.map",
+    "static/js/2.b4ab22f7.chunk.js": "/zomboji/static/js/2.b4ab22f7.chunk.js",
+    "static/js/2.b4ab22f7.chunk.js.map": "/zomboji/static/js/2.b4ab22f7.chunk.js.map",
+    "index.html": "/zomboji/index.html",
+    "precache-manifest.8bba2386b6e608aeb3ae22d0946c13e9.js": "/zomboji/precache-manifest.8bba2386b6e608aeb3ae22d0946c13e9.js",
+    "service-worker.js": "/zomboji/service-worker.js",
+    "static/css/main.8e363710.chunk.css.map": "/zomboji/static/css/main.8e363710.chunk.css.map",
+    "static/js/2.b4ab22f7.chunk.js.LICENSE.txt": "/zomboji/static/js/2.b4ab22f7.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/zomboji/static/media/DrawveticaMini.2f0b7aef.ttf",
+    "static/media/zomboji-1.png": "/zomboji/static/media/zomboji-1.45ea41ee.png",
+    "static/media/zomboji-10.png": "/zomboji/static/media/zomboji-10.ea6536b1.png",
+    "static/media/zomboji-11.png": "/zomboji/static/media/zomboji-11.9d9a1efa.png",
+    "static/media/zomboji-12.png": "/zomboji/static/media/zomboji-12.4686f04c.png",
+    "static/media/zomboji-13.png": "/zomboji/static/media/zomboji-13.94ef603c.png",
+    "static/media/zomboji-2.png": "/zomboji/static/media/zomboji-2.4318651b.png",
+    "static/media/zomboji-3.png": "/zomboji/static/media/zomboji-3.8c83f03f.png",
+    "static/media/zomboji-4.png": "/zomboji/static/media/zomboji-4.486e760c.png",
+    "static/media/zomboji-5.png": "/zomboji/static/media/zomboji-5.2e82e02b.png",
+    "static/media/zomboji-6.png": "/zomboji/static/media/zomboji-6.5ac3a239.png",
+    "static/media/zomboji-7.png": "/zomboji/static/media/zomboji-7.79838a63.png",
+    "static/media/zomboji-8.png": "/zomboji/static/media/zomboji-8.f48ddce7.png",
+    "static/media/zomboji-9.png": "/zomboji/static/media/zomboji-9.1d3c7f24.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ed67281d.js",
+    "static/js/2.b4ab22f7.chunk.js",
+    "static/css/main.8e363710.chunk.css",
+    "static/js/main.cc553219.chunk.js"
+  ]
+}
