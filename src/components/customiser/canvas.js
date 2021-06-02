@@ -1,14 +1,12 @@
 import React from 'react';
 import { useSelector } from 'react-redux'
 import zombojiBase from '../../images/zomboji-1.png'
-import Header from './header'
 import CanvasLayer from './canvas-layer'
 
 const Canvas = () => {
   const layers = useSelector(state => state.customiser.layers)
   return (
     <div className="canvas">
-      <Header />
       <img
         className="d-block zomboji-base"
         src={zombojiBase}

@@ -1,15 +1,10 @@
 import React from 'react';
-import Canvas from './components/customiser/canvas'
-import Customiser from './components/customiser/customiser'
+import Zomboji from './components/zomboji'
 
 function App() {
   return (
-    <div className="container">
-      <div className="wrapper row">
-        <Canvas />
-        <Customiser />
-      </div>
-
+    <div className="wrapper">
+      <Zomboji />
     </div>
   );
 }
