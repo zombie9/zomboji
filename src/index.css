@@ -88,3 +88,11 @@ button:focus {
 .customiser p, .header p {
   margin-bottom: 0;
 }
+
+@media screen and (min-width: 481px) {
+  .wrapper {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+  }
+}
