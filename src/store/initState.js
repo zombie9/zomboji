@@ -8,17 +8,17 @@ const initState = {
         {
           id: 1,
           zindex: 40,
-          file: 'zomboji-10.png'
+          file: 'zomboji-11.png'
         },
         {
           id: 2,
           zindex: 40,
-          file: 'zomboji-11.png'
+          file: 'zomboji-12.png'
         },
         {
           id: 3,
           zindex: 48,
-          file: 'zomboji-12.png'
+          file: 'zomboji-13.png'
         }
       ]
     },
@@ -30,17 +30,17 @@ const initState = {
         {
           id: 1,
           zindex: 30,
-          file: 'zomboji-7.png'
+          file: 'zomboji-8.png'
         },
         {
           id: 2,
           zindex: 45,
-          file: 'zomboji-8.png'
+          file: 'zomboji-9.png'
         },
         {
           id: 3,
           zindex: 30,
-          file: 'zomboji-9.png'
+          file: 'zomboji-10.png'
         }
       ]
     },
@@ -58,6 +58,11 @@ const initState = {
           id: 2,
           zindex: 20,
           file: 'zomboji-6.png'
+        },
+        {
+          id: 3,
+          zindex: 20,
+          file: 'zomboji-7.png'
         }
       ]
     },
