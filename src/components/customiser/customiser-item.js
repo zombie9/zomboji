@@ -16,8 +16,8 @@ const CustomiserItem = ({layer}) => {
   }
 
   return (
-    <div className="sm-6">
-      <h5>{layer.name}</h5>
+    <div className="col-6 col-md-12 mb-3">
+      <p>{layer.name}</p>
       <Slider
         value={sliderValue}
         step={1}

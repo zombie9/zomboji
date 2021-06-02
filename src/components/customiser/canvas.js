@@ -8,7 +8,6 @@ const Canvas = () => {
   const layers = useSelector(state => state.customiser.layers)
   return (
     <div className="canvas">
-      <Header />
       <img
         className="d-block zomboji-base"
         src={zombojiBase}
