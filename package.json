@@ -1,7 +1,7 @@
 {
   "name": "zomboji",
-  "version": "0.2.0",
-  "homepage": "http://zombie9.github.io/zomboji",
+  "version": "1.0.0",
+  "homepage": "http://www.zombie9.com/zomboji",
   "private": true,
   "dependencies": {
     "@material-ui/core": "^4.11.4",
