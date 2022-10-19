@@ -16,7 +16,7 @@
     "react-scripts": "^3.4.4",
     "redux": "^4.1.0",
     "sass": "^1.55.0",
-    "serve": "^11.3.2"
+    "serve": "^14.0.1"
   },
   "scripts": {
     "start": "react-scripts start",
